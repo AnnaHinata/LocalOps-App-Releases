@@ -1,0 +1,13 @@
+{
+  "android": {
+    "latestVersionCode": 3,
+    "latestVersionName": "1.0.2",
+    "apkUrl": "https://raw.githubusercontent.com/AnnaHinata/LocalOps-App-Releases/main/artvista-localops-android-latest.apk",
+    "mandatory": false,
+    "releaseNotes": [
+      "Adds in-app update checks for future APK releases.",
+      "Updates the Android launcher icon to the ArtVista logo.",
+      "Keeps the app installable over earlier debug APK builds."
+    ]
+  }
+}
