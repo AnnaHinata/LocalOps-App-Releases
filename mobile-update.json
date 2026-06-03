@@ -1,13 +1,13 @@
 {
   "android": {
-    "latestVersionCode": 4,
-    "latestVersionName": "1.0.3",
+    "latestVersionCode": 5,
+    "latestVersionName": "1.0.4",
     "apkUrl": "https://raw.githubusercontent.com/AnnaHinata/LocalOps-App-Releases/main/artvista-localops-android-latest.apk",
     "mandatory": false,
     "releaseNotes": [
-      "Test build for the in-app updater flow.",
-      "Adds a visible Android build 1.0.3 marker on the login screen.",
-      "Confirms install-over update from the 1.0.2 baseline."
+      "Makes the update alert much more prominent.",
+      "Shows updates on login, in-app overlay, and the notification bell.",
+      "Improves Android update detection so the checker does not silently skip."
     ]
   }
 }
