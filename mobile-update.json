@@ -1,13 +1,12 @@
 {
   "android": {
-    "latestVersionCode": 6,
-    "latestVersionName": "1.0.5",
+    "latestVersionCode": 7,
+    "latestVersionName": "1.0.6",
     "apkUrl": "https://raw.githubusercontent.com/AnnaHinata/LocalOps-App-Releases/main/artvista-localops-android-latest.apk",
     "mandatory": false,
     "releaseNotes": [
-      "Second-stage updater test build.",
-      "Shows Android build 1.0.5 after install.",
-      "Used to verify that 1.0.4 can detect and download future updates."
+      "Team Leaders can now open and manage ID Vault.",
+      "ID Vault access is enforced consistently across navigation and Firestore."
     ]
   }
 }
