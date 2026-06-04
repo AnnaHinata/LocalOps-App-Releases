@@ -1,13 +1,13 @@
 {
   "android": {
-    "latestVersionCode": 5,
-    "latestVersionName": "1.0.4",
+    "latestVersionCode": 6,
+    "latestVersionName": "1.0.5",
     "apkUrl": "https://raw.githubusercontent.com/AnnaHinata/LocalOps-App-Releases/main/artvista-localops-android-latest.apk",
     "mandatory": false,
     "releaseNotes": [
-      "Makes the update alert much more prominent.",
-      "Shows updates on login, in-app overlay, and the notification bell.",
-      "Improves Android update detection so the checker does not silently skip."
+      "Second-stage updater test build.",
+      "Shows Android build 1.0.5 after install.",
+      "Used to verify that 1.0.4 can detect and download future updates."
     ]
   }
 }
