@@ -1,12 +1,13 @@
 {
   "android": {
-    "latestVersionCode": 7,
-    "latestVersionName": "1.0.6",
+    "latestVersionCode": 8,
+    "latestVersionName": "1.0.7",
     "apkUrl": "https://raw.githubusercontent.com/AnnaHinata/LocalOps-App-Releases/main/artvista-localops-android-latest.apk",
     "mandatory": false,
     "releaseNotes": [
-      "Team Leaders can now open and manage ID Vault.",
-      "ID Vault access is enforced consistently across navigation and Firestore."
+      "Fixes Daily Updates Gemini voice transcription.",
+      "Records voice notes as Gemini-supported WAV audio before transcription.",
+      "Uses an audio-capable Gemini model while keeping text intelligence on Gemini 3 Flash."
     ]
   }
 }
