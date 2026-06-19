@@ -1,13 +1,13 @@
 {
-  "android": {
-    "latestVersionCode": 8,
-    "latestVersionName": "1.0.7",
-    "apkUrl": "https://raw.githubusercontent.com/AnnaHinata/LocalOps-App-Releases/main/artvista-localops-android-latest.apk",
-    "mandatory": false,
-    "releaseNotes": [
-      "Fixes Daily Updates Gemini voice transcription.",
-      "Records voice notes as Gemini-supported WAV audio before transcription.",
-      "Uses an audio-capable Gemini model while keeping text intelligence on Gemini 3 Flash."
-    ]
-  }
+    "android":  {
+                    "latestVersionCode":  9,
+                    "latestVersionName":  "1.0.8",
+                    "apkUrl":  "https://raw.githubusercontent.com/AnnaHinata/LocalOps-App-Releases/main/artvista-localops-android-latest.apk",
+                    "mandatory":  false,
+                    "releaseNotes":  [
+                                         "Adds the Daily Report leadership review for HOD and Supervisor.",
+                                         "Shows reports grouped by Morning/Night shift branch.",
+                                         "Keeps the Android app synced with the latest live website build."
+                                     ]
+                }
 }
