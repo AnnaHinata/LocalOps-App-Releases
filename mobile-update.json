@@ -1,13 +1,13 @@
 {
     "android":  {
-                    "latestVersionCode":  10,
-                    "latestVersionName":  "1.0.9",
+                    "latestVersionCode":  11,
+                    "latestVersionName":  "1.0.10",
                     "apkUrl":  "https://raw.githubusercontent.com/AnnaHinata/LocalOps-App-Releases/main/artvista-localops-android-latest.apk",
                     "mandatory":  false,
                     "releaseNotes":  [
-                                         "Adds saved failed Daily Report sync recovery.",
-                                         "Lets users retry Google Sheet sync without refilling reports.",
-                                         "Improves duplicate-safe sheet sync handling."
+                                         "Stops successful Google Sheet writes from showing as failed.",
+                                         "Keeps real server errors visible.",
+                                         "Improves Apps Script acknowledgement reliability."
                                      ]
                 }
 }
