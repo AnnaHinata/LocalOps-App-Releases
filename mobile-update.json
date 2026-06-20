@@ -1,13 +1,13 @@
 {
     "android":  {
-                    "latestVersionCode":  9,
-                    "latestVersionName":  "1.0.8",
+                    "latestVersionCode":  10,
+                    "latestVersionName":  "1.0.9",
                     "apkUrl":  "https://raw.githubusercontent.com/AnnaHinata/LocalOps-App-Releases/main/artvista-localops-android-latest.apk",
                     "mandatory":  false,
                     "releaseNotes":  [
-                                         "Adds the Daily Report leadership review for HOD and Supervisor.",
-                                         "Shows reports grouped by Morning/Night shift branch.",
-                                         "Keeps the Android app synced with the latest live website build."
+                                         "Adds saved failed Daily Report sync recovery.",
+                                         "Lets users retry Google Sheet sync without refilling reports.",
+                                         "Improves duplicate-safe sheet sync handling."
                                      ]
                 }
 }
